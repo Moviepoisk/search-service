@@ -1,0 +1,10 @@
+# elasticsearch.yml
+
+# Allow Elasticsearch to listen on all network interfaces
+network.host: 0.0.0.0
+
+# Disable X-Pack security (only for development or internal testing)
+xpack.security.enabled: false
+
+# Set the license type to basic
+xpack.license.self_generated.type: basic
